@@ -1,9 +1,111 @@
-<mxfile host="app.diagrams.net" modified="2024-04-21T08:10:36.509Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.2.7" etag="U1qgtDnqxbigqwc-lJBd" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-21T08:35:10.329Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Cpl5_cg5I6RQFRKtLU5z" version="24.2.7" type="github">
   <diagram name="第 1 页" id="4UZvwiUo1-x86ewQtV_b">
-    <mxGraphModel>
+    <mxGraphModel dx="1235" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-1" value="出租者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="430" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-3" value="发布闲置房源" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="470" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-4" value="个人信息管理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="390" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-5" value="用户注册登录" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="310" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-6" value="管理房源信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="549.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-7" value="反馈问题" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="630" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-8" value="退出登录" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="710" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.027;entryY=0.789;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Ydoo5cb013HOkwy5Ri8s-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="430" as="sourcePoint" />
+            <mxPoint x="290" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.03;entryY=0.629;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Ydoo5cb013HOkwy5Ri8s-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="460" as="sourcePoint" />
+            <mxPoint x="290" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ydoo5cb013HOkwy5Ri8s-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="470" as="sourcePoint" />
+            <mxPoint x="330" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="500" as="sourcePoint" />
+            <mxPoint x="300" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="500" as="sourcePoint" />
+            <mxPoint x="300" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="510" as="sourcePoint" />
+            <mxPoint x="290" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-17" value="修改信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="390" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-18" value="《include》" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ydoo5cb013HOkwy5Ri8s-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="430" as="sourcePoint" />
+            <mxPoint x="520" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-20" value="添加房员" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="460" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-21" value="取消订购房源" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="600" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-22" value="删除房源" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="530" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-23" value="修改房源" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="670" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-24" value="《include》" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.029;entryY=0.691;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ydoo5cb013HOkwy5Ri8s-3" target="Ydoo5cb013HOkwy5Ri8s-20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="505" as="sourcePoint" />
+            <mxPoint x="610" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-25" value="《include》" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ydoo5cb013HOkwy5Ri8s-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="585" as="sourcePoint" />
+            <mxPoint x="600" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-26" value="《include》" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.003;exitY=0.624;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ydoo5cb013HOkwy5Ri8s-6" target="Ydoo5cb013HOkwy5Ri8s-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="524.5" as="sourcePoint" />
+            <mxPoint x="620" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydoo5cb013HOkwy5Ri8s-27" value="《include》" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=-0.003;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.974;exitY=0.659;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ydoo5cb013HOkwy5Ri8s-6" target="Ydoo5cb013HOkwy5Ri8s-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="600" as="sourcePoint" />
+            <mxPoint x="630" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
