@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2024-04-21T07:39:47.610Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.2.7" etag="JtBjKUqlrv0-9kYBJnDH" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-21T07:49:27.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="4eRvF6vvQpnK7YVk-k2b" version="24.2.7" type="github">
   <diagram name="第 1 页" id="DcIz9Wks6VdDfBS2DVju">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="1691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uXzmyMzt7WCRtpJbsnAV-1" value="系统用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-450" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uXzmyMzt7WCRtpJbsnAV-2" value="内部用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uXzmyMzt7WCRtpJbsnAV-3" value="承租者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uXzmyMzt7WCRtpJbsnAV-4" value="系统管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uXzmyMzt7WCRtpJbsnAV-5" value="外部用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uXzmyMzt7WCRtpJbsnAV-6" value="出租者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uXzmyMzt7WCRtpJbsnAV-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="-330" as="sourcePoint" />
+            <mxPoint x="390" y="-380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXzmyMzt7WCRtpJbsnAV-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="uXzmyMzt7WCRtpJbsnAV-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="-320" as="sourcePoint" />
+            <mxPoint x="450" y="-380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXzmyMzt7WCRtpJbsnAV-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="-220" as="sourcePoint" />
+            <mxPoint x="490" y="-250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXzmyMzt7WCRtpJbsnAV-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="-200" as="sourcePoint" />
+            <mxPoint x="320" y="-250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXzmyMzt7WCRtpJbsnAV-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="-220" as="sourcePoint" />
+            <mxPoint x="525" y="-250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
