@@ -1,9 +1,135 @@
-<mxfile host="app.diagrams.net" modified="2024-04-22T08:56:16.412Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.2.7" etag="ROCpFIAKW6WRZrsGxCGN" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-22T09:20:35.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="IIP7ciDflBm7_n5Ejoj1" version="24.2.7" type="github">
   <diagram name="第 1 页" id="yzHAGZ6W7gpZUDuR0Z9N">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="panG4Qg43Bo-5SGHACK7-4" value="浏览器" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-5" value="房屋控制器" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-6" value="房屋服务" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-8" value="房屋实体类" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="580" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.433;entryY=1.072;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="panG4Qg43Bo-5SGHACK7-13" target="panG4Qg43Bo-5SGHACK7-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="490" as="sourcePoint" />
+            <mxPoint x="150" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="panG4Qg43Bo-5SGHACK7-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="480" as="sourcePoint" />
+            <mxPoint x="315" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="panG4Qg43Bo-5SGHACK7-18" target="panG4Qg43Bo-5SGHACK7-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="480" as="sourcePoint" />
+            <mxPoint x="420" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="panG4Qg43Bo-5SGHACK7-20" target="panG4Qg43Bo-5SGHACK7-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="635" y="470" as="sourcePoint" />
+            <mxPoint x="420" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.433;entryY=1.072;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="panG4Qg43Bo-5SGHACK7-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="490" as="sourcePoint" />
+            <mxPoint x="158" y="164" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="150" y="190" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-15" value="1.发布房源" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="panG4Qg43Bo-5SGHACK7-16">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="160" y="210" as="sourcePoint" />
+            <mxPoint x="240" y="210" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="panG4Qg43Bo-5SGHACK7-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="480" as="sourcePoint" />
+            <mxPoint x="315" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="315" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="panG4Qg43Bo-5SGHACK7-25" target="panG4Qg43Bo-5SGHACK7-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="480" as="sourcePoint" />
+            <mxPoint x="475" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="panG4Qg43Bo-5SGHACK7-18" target="panG4Qg43Bo-5SGHACK7-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-28" value="3.绑定用户与房源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="panG4Qg43Bo-5SGHACK7-27">
+          <mxGeometry x="0.0667" y="4" relative="1" as="geometry">
+            <mxPoint x="46" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="470" y="250" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="panG4Qg43Bo-5SGHACK7-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="635" y="470" as="sourcePoint" />
+            <mxPoint x="635" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="630" y="350" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-22" value="2.校验成功后添加房产" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="panG4Qg43Bo-5SGHACK7-18">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="320" y="270" as="sourcePoint" />
+            <mxPoint x="400" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-23" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="480" y="360" as="sourcePoint" />
+            <mxPoint x="630" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-31" value="4.插入房源信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="panG4Qg43Bo-5SGHACK7-23">
+          <mxGeometry x="-0.144" y="-2" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-26" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="panG4Qg43Bo-5SGHACK7-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="480" as="sourcePoint" />
+            <mxPoint x="475" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="470" y="320" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-30" value="5.更新房源状态" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="630" y="400" as="sourcePoint" />
+            <mxPoint x="160" y="400" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panG4Qg43Bo-5SGHACK7-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="150" y="350" width="10" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
